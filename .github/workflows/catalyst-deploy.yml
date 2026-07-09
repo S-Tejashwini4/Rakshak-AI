@@ -1,0 +1,39 @@
+name: Catalyst CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Build Frontend
+        working-directory: ./react-vite
+        run: |
+          npm install
+          npm run build
+
+      - name: Install Function Dependencies
+        run: |
+          cd functions/rakshak_function && npm install
+          cd ../daily_crime_report && npm install
+          cd ../case_event_handler && npm install
+
+      - name: Deploy to Zoho Catalyst
+        run: |
+          npm install -g zcatalyst-cli
+          catalyst deploy --token ${{ secrets.CATALYST_TOKEN }} --project Rakshak-AI

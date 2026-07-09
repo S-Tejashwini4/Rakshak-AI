@@ -1,0 +1,26 @@
+=========================================
+RAKSHAK-AI : CONFIDENTIAL EVIDENCE REPORT
+=========================================
+
+CASE ID: 104430006202600001
+DATE: 03/07/2026
+LOCATION: Mysuru Central District
+OFFICER IN CHARGE: Insp. Ramesh K.
+
+EVIDENCE DESCRIPTION:
+---------------------
+Digital forensics team extracted chat logs and GPS metadata from the confiscated Samsung mobile phone belonging to the suspect (Ravi Kumar).
+
+KEY FINDINGS:
+-------------
+1. Suspect's device was connected to a hidden Wi-Fi network near the crime scene between 02:00 AM and 03:45 AM.
+2. Threatening text messages were sent to the victim demanding an extortion amount of Rs. 5 Lakhs.
+3. CCTV footage cross-referenced from Sector 4 matches the suspect's description (Male, 32-36 years, wearing a black helmet, riding a Hero Honda motorcycle).
+
+NOTES:
+------
+Language detected in texts is aggressive and indicates premeditated intent. Requesting NLP sentiment analysis and facial recognition match on the appended video files.
+
+=========================================
+END OF REPORT
+=========================================

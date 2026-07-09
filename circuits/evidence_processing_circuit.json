@@ -1,0 +1,48 @@
+{
+  "Start Evidence Processing": {
+    "start": true,
+    "type": "pass",
+    "next": "Parallel Processing"
+  },
+  "Parallel Processing": {
+    "type": "parallel",
+    "next": "Check Threat Level",
+    "branches": [
+      {
+        "Extract OCR": {
+          "start": true,
+          "type": "pass"
+        }
+      },
+      {
+        "Run Moderation": {
+          "start": true,
+          "type": "pass"
+        }
+      },
+      {
+        "Analyze Objects": {
+          "start": true,
+          "type": "pass"
+        }
+      }
+    ]
+  },
+  "Check Threat Level": {
+    "type": "branch",
+    "choices": [
+      {
+        "condition": "$.threatLevel == 'High'",
+        "next": "Alert Supervisor"
+      }
+    ],
+    "default": "Save Evidence"
+  },
+  "Alert Supervisor": {
+    "type": "pass",
+    "next": "Save Evidence"
+  },
+  "Save Evidence": {
+    "type": "pass"
+  }
+}

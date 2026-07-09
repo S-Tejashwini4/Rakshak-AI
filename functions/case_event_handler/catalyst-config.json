@@ -1,0 +1,11 @@
+{
+	"deployment": {
+		"name": "case_event_handler",
+		"stack": "node18",
+		"type": "event",
+		"env_variables": {}
+	},
+	"execution": {
+		"main": "index.js"
+	}
+}

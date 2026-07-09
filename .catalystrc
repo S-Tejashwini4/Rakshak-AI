@@ -1,0 +1,48 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "62894000000042024",
+      "name": "Rakshak-AI",
+      "domain": {
+        "id": "10128196995",
+        "name": "rakshak-ai-926449439.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "926449439",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "id": "62894000000042001",
+      "name": "Rakshak",
+      "domain": {
+        "id": "10128196087",
+        "name": "rakshak-926449439.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "926449439",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

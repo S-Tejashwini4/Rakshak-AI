@@ -1,0 +1,10 @@
+{
+  "name": "daily_crime_report",
+  "version": "1.0.0",
+  "description": "Catalyst Cron Function for Daily Crime Report",
+  "main": "index.js",
+  "author": "tejashwini@navabharathtechnologies.com",
+  "dependencies": {
+    "zcatalyst-sdk-node": "latest"
+  }
+}

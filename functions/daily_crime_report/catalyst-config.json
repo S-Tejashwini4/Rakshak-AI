@@ -1,0 +1,11 @@
+{
+	"deployment": {
+		"name": "daily_crime_report",
+		"stack": "node18",
+		"type": "cron",
+		"env_variables": {}
+	},
+	"execution": {
+		"main": "index.js"
+	}
+}

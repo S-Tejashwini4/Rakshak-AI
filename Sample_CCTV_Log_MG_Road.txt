@@ -1,0 +1,26 @@
+TRAFFIC CAMERA ANALYSIS REPORT
+Camera ID: CAM-MG-40006-04B
+Location: MG Road Intersection, Sector 4
+Date: June 30, 2026
+Time Window: 23:30 HRS - 23:55 HRS
+
+AUTOMATED TAGS:
+- Suspicious Movement Detected
+- Weapon Sighted (Confidence: 87%)
+- High-Speed Departure (Confidence: 94%)
+
+VEHICLE DATA:
+Type: 2-Wheeler (Motorcycle)
+Make/Model: Hero Honda
+Color: Black
+License Plate: Partial match "KA-09-E-**42"
+
+SUBJECTS:
+Subject 1 (Rider):
+- Gender: Male
+- Age Estimate: 30-40 years
+- Apparel: Dark jacket, black helmet
+- Action: Seen fleeing the scene at high speed at 23:48 HRS holding a reflective sharp object.
+
+NOTES:
+Footage segment extracted and sent to Zoho Zia AI Evidence Pipeline for high-resolution facial enhancement and cross-referencing with known offender databases.

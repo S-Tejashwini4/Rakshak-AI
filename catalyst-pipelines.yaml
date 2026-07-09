@@ -1,0 +1,23 @@
+version: 1
+jobs:
+  Deploy_Rakshak_App:
+    steps:
+      - echo "Starting Catalyst CI/CD Pipeline for Rakshak AI..."
+      # Install and build the React Vite Frontend
+      - cd react-vite
+      - npm install
+      - npm run build
+      - cd ..
+      
+      # Install dependencies for all Catalyst Serverless Functions
+      - cd functions/rakshak_function
+      - npm install
+      - cd ../daily_crime_report
+      - npm install
+      - cd ../case_event_handler
+      - npm install
+      - cd ../..
+      
+      # Deploy the entire project to the Zoho Catalyst Cloud Environment
+      - catalyst deploy --token $CATALYST_TOKEN
+      - echo "Deployment Successful!"

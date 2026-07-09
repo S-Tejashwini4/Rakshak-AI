@@ -1,0 +1,21 @@
+{
+  "client": {
+    "source": "react-vite/dist"
+  },
+  "functions": {
+    "targets": [
+      "rakshak_function",
+      "daily_crime_report",
+      "case_event_handler"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "docId": "5620000000004002",
+  "circuits": {
+    "source": "circuits"
+  },
+  "apig": {
+    "enabled": false
+  }
+}

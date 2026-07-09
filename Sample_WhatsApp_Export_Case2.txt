@@ -1,0 +1,15 @@
+WhatsApp Chat Export
+Participants: Victim (Rajesh), Unknown Number (+91-88888-99999)
+Date Range: July 1, 2026 to July 2, 2026
+
+[July 1, 2026 14:05] Unknown: Hello Rajesh. We have access to your private photo gallery and bank credentials.
+[July 1, 2026 14:07] Rajesh: Who is this? How did you get my number?
+[July 1, 2026 14:10] Unknown: Doesn't matter. If you don't transfer Rs. 50,000 to the UPI ID provided below by tonight, we will release everything to your contacts.
+[July 1, 2026 14:15] Rajesh: Please don't do this. I don't have that kind of money.
+[July 2, 2026 09:00] Unknown: Time is ticking. We tracked your IP (192.168.1.45). Do not try to contact the police or the price doubles.
+
+---
+ZIA NLP PRE-PROCESSOR METADATA:
+Language: English (Indian Dialect)
+Keywords Flagged: "transfer", "UPI", "release everything", "police", "price doubles"
+Automated Classification: Cyber Extortion / Blackmail
