@@ -59,7 +59,7 @@ function App() {
   }, [fetchCases, fetchUsers]);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.DEV ? '/' : '/app'}>
       <ToastComponent />
       <Routes>
         <Route path="/login" element={<Login />} />
