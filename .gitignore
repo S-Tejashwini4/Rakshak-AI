@@ -1,0 +1,26 @@
+# Node.js binaries (do not commit — too large for GitHub)
+node-v18/
+node-v18.zip
+
+# Logs
+catalyst-debug.log
+*.log
+
+# Test images
+test.jpg
+test2.jpg
+
+# Catalyst config scripts
+set_config.ps1
+
+# React / Vite build output
+react-vite/dist/
+react-vite/node_modules/
+
+# Catalyst functions node_modules
+functions/*/node_modules/
+.build/
+
+# OS
+.DS_Store
+Thumbs.db
