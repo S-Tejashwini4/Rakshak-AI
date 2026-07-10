@@ -109,7 +109,7 @@ const Login = () => {
             transition={{ type: "spring", stiffness: 260, damping: 20 }}
             className="w-20 h-20 rounded-full flex items-center justify-center mb-4 overflow-hidden border-2 border-primary/50 shadow-[0_0_30px_rgba(37,99,235,0.3)]"
           >
-            <img src="/logo.png" alt="Rakshak AI" className="w-full h-full object-cover" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Rakshak AI" className="w-full h-full object-cover" />
           </motion.div>
           <h1 className="text-2xl font-bold text-center tracking-wider text-gray-900 dark:text-white">{t('login_title')}</h1>
           <p className="text-sm text-gray-500 dark:text-gray-400 text-center mt-2">{t('login_subtitle')}</p>

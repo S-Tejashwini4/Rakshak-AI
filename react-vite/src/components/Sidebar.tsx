@@ -56,7 +56,7 @@ const Sidebar = ({ isOpen, setIsOpen }: { isOpen: boolean, setIsOpen: (v: boolea
       className="glass z-20 flex-shrink-0 relative flex flex-col border-r border-white/10"
     >
       <div className="h-16 flex items-center justify-center border-b border-white/10 relative">
-        <img src="/logo.png" alt="Rakshak AI" className="w-8 h-8 rounded object-contain" />
+        <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Rakshak AI" className="w-8 h-8 rounded object-contain" />
         {isOpen && (
           <span className="ml-3 font-bold text-lg tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">
             RAKSHAK AI
